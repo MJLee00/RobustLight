@@ -3,7 +3,7 @@ import os
 import time
 from multiprocessing import Process
 import argparse
-from utils.config import DMBP_config
+from utils.config import Robust_config
 from utils.utils import pipeline_wrapper, merge, setup_seed
 from utils import config
 import torch
@@ -102,7 +102,7 @@ def main(in_args=None):
                 "S": [9, 10, 11]
             },
             "NOISE_DIRECTION": ["W","E"], # 某个方向出错了
-            "inference_config": DMBP_config,
+            "inference_config": Robust_config,
 
         }
 

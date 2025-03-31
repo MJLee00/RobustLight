@@ -108,7 +108,7 @@ DIC_MAXPRESSURE_AGENT_CONF = {
 }
 
 
-DMBP_config = {
+Robust_config = {
     "algo": "ql", # "bc", "ql"
     "eval_freq" : 5000,
     "max_timestep": int(3e5),

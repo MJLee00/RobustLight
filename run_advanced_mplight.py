@@ -4,7 +4,7 @@ import time
 from multiprocessing import Process
 import argparse
 import os
-from utils.config import DMBP_config
+from utils.config import Robust_config
 import torch
 import numpy as np 
 import random
@@ -99,7 +99,7 @@ def main(in_args=None):
                 "S": [9, 10, 11]
             },
             "NOISE_DIRECTION": ["W","E"], # 某个方向出错了
-            "inference_config": DMBP_config,
+            "inference_config": Robust_config,
         }
 
         if in_args.eightphase:

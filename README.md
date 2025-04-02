@@ -14,5 +14,3 @@ python run_advanced_colight_dsi.py
 * "NOISE_LEVEL": 0, # 0 is data noise，1 is data missing
 
 Other baseline experiments in  other_experiments.pdf
-
-Detechnical theory of improve diffusion to denoise and demask in detail_tech.pdf
